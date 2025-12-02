@@ -391,8 +391,8 @@ p:last-child {
 /* ------------ Position Absolute ------------ */
 .index-badge-1 {
   position: absolute;
-  bottom: -2rem;
-  right: -5rem;
+  bottom: -3rem;
+  right: -2rem;
   width: 11rem;
   z-index: 2;
 }
