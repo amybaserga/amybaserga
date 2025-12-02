@@ -87,6 +87,8 @@ html {
 .padded-l-1 { padding-left: 1rem; }
 .padded-r-1 { padding-right: 1rem; }
 
+.padded-t-3 { padding-top: 3rem; }
+
 .padded-t-2 { padding-top: 2rem; }
 .padded-b-2 { padding-bottom: 2rem; }
 .padded-l-2 { padding-left: 2rem; }
@@ -302,9 +304,13 @@ a.bg-image { display: block;}
 .uppercase    { text-transform: uppercase; }
 
 body {
-  font-family: 'Mulish', serif;  /* Add your font here */ 
+  font-family: 'Montserrat', serif;  /* Add your font here */ 
   color: var(--dark-text);
   overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Kona', sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
@@ -365,6 +371,22 @@ p:last-child {
 
 .no-deco { text-decoration: none; }
 
+.youtube-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.youtube-container .embed-container {
+  width: 100%;
+}
+
+/* Hier zwingen wir das iframe wirklich auf volle Breite */
+.youtube-container iframe {
+  width: 100% !important;
+  height: auto !important;
+  display: block;
+  aspect-ratio: 16 / 9;
+}
 
 /* ------------ Position Absolute ------------ */
 .index-badge-1 {
@@ -567,7 +589,7 @@ footer nav a {
 .dropdown { 
   position: relative; 
   display: inline-block;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 
 .dropdown-title {
@@ -585,7 +607,7 @@ footer nav a {
   z-index: 2;
   text-align: left;
   min-width: 10rem;
-  border: 1px solid mediumvioletred;
+  /* border: 1px solid mediumvioletred; */
 }
 
 .dropdown:hover .dropdown-content{ 
