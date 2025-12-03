@@ -187,6 +187,30 @@ html {
   border: 1px solid var(--dark-text);
 }
 
+.margin-l-c1 {
+  margin-left: -14rem;
+  max-width: 100%;
+  margin-top: 13rem;
+}
+
+.polaroid-3 {
+  background-color: var(--v-light);
+  padding: 0.5rem;
+  padding-bottom: 3rem;
+  border: 1px solid var(--dark);
+  border-radius: 1.5rem;
+}
+.polaroid-3 img {
+  border-radius: 1.5rem;
+  border: 1px solid var(--dark);
+}
+
+.icon-karriere {
+  position: absolute;
+  top: -60%;
+  right: 2rem;
+  width: calc(100% - 2rem);
+}
 
 .image-polaroid {
   background-color: var(--v-light);
@@ -259,6 +283,16 @@ html {
   border-radius: 1.5rem;
 }
 
+.bg-paper-about-2 {
+  background-image: url('/images/hell-paper-2.png');
+  background-color: transparent;
+  background-position: center; 
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 1.5rem;
+  border: 1px solid var(--dark);
+}
+
 .schneeflocke-absolute-1 {
   border-radius: 50rem;
   background-color: var(--v-light);
@@ -284,6 +318,13 @@ html {
     position: absolute;
     width: 3rem;
     right: 25%;
+    top: 20rem;   
+}
+
+.schneeflocke-absolute-4 {
+    position: absolute;
+    width: 3rem;
+    right: 16%;
     top: 20rem;   
 }
 
@@ -412,7 +453,7 @@ p:last-child {
 .fourrem        { font-size: 4rem; }
 .fiverem       { font-size: 5rem;}
 
-.text-white     { color: var(--v-light); }
+.text-white     { color: white; }
 
 .no-deco { text-decoration: none; }
 
@@ -442,6 +483,14 @@ p:last-child {
   z-index: 2;
 }
 
+.index-badge-2 {
+  position: absolute;
+  bottom: -3rem;
+  left: -8rem;
+  width: 11rem;
+  z-index: 0;
+}
+
 /* ------------ Buttons & Links ------------ */
 a {
     color: inherit;
@@ -454,7 +503,12 @@ p a {
     border-bottom: 1px solid;
 }
 
-
+.about-icon {
+  width: 17rem;
+  text-align: center;
+  margin: auto;
+  padding-top: 1rem;
+}
 
 .button { 
     display: inline-block;
@@ -568,7 +622,7 @@ p a {
   align-items: center;
   column-gap: 3rem;
   text-decoration: none;
-  font-family: "Cowboy", sans-serif;
+  font-family: "Script", sans-serif;
   letter-spacing: 0.5px;
   font-size: 2.6rem;
 }
@@ -887,7 +941,7 @@ select {
   padding: 0.5rem;
   font-family: inherit;
   font-size: 1rem;
-  border: 2px solid var(--medium);
+  border: 2px solid var(--dark);
   color: var(--dark-text);
   background-color: white;
 }
@@ -917,7 +971,7 @@ input, textarea {
   padding: 0.5rem;
   font-family: inherit;
   font-size: 1rem;
-  border: 2px solid var(--medium);
+  border: 2px solid var(--dark);
   color: var(--dark-text);
   background-color: white;
 }
@@ -935,16 +989,18 @@ textarea {
 }
 
 button {
-    font-size: 1.2rem;
     display: inline-block;
+    font-size: 1.3rem;
     text-decoration: none;
-    border: 1px solid var(--medium);
-    text-align: center;
-    background-color: transparent;
+    line-height: 1;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--v-light);
+    font-family: 'Kona', sans-serif;
+    background-color: var(--dark);
+    border-radius: 7px;
+    color: var(--v-light);
+    box-shadow: 5px 5px 5px 0 var(--v-light);
     cursor: pointer;
-    font-weight: 400;
-    font-family: 'Jost', sans-serif;
-    padding: 0.5rem 1rem;
 }
 
 button:hover {

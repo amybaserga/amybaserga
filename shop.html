@@ -1,0 +1,90 @@
+---
+layout: default
+title: Über mich
+swiper: true
+seo:
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+shop:
+  - image: /images/shop/shop-1.jpg
+    title: T-Shirt
+    price: CHF 35.-
+  - image: /images/shop/shop-3.jpg
+    title: Heftli
+    price: CHF 15.-
+  - image: /images/shop/shop-4.jpg
+    title: Mütze
+    price: CHF 25.-
+bestellen:
+  - titel: T-Shirt
+  - titel: Mütze
+  - titel: Notizbuch
+---
+
+
+<section>
+  <div class="capped-width grid-spaceAround padded-c1">
+    <div class="col-12 padded-1">
+      <h2> Shop </h2>
+    </div>
+    {% for shop in page.shop %}
+    <div class="col-4 padded-1">
+      <div class="shop">
+        <img src="{{shop.image}}">
+        <h3 class="margin-t-1 shop-title"> {{shop.title}} </h3>
+        <p class="price"> {{shop.price}}</p>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="col-12 padded-1 center">
+      <a href="/shop.html" class="button"> jetzt einkaufen </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="padded padded-b-0 xs-padded-0 padded-t-0">
+    <div class="editable padded padded-b-1 capped-width">
+        <h2> Bestellformular </h2>                                               
+    </div>
+</section>
+      
+<section class="padded padded-b-0 xs-padded-0 padded-t-0 " id="kontaktformular">
+    <form class="xs-margin-t-1 padded padded-t-0 capped-width" action="https://formspree.io/f/#" method="POST">
+
+        <label for="_vorname"> Vorname </label>
+        <input type="text" name="_vorname" id="_vorname" />
+
+        <label for="_nachname"> Nachname </label>
+        <input type="text" name="_nachname" id="_nachname" />
+
+        <label for="_adresse"> Strasse, Nr. </label>
+        <input type="text" name="_adresse" id="_adresse" />
+
+        <label for="_wohnort"> PLZ, Wohnort </label>
+        <input type="text" name="_wohnort" id="_wohnort" />
+
+        <label for="_replyto"> E-Mail </label>
+        <input type="email" required name="_replyto" id="_replyto" />
+
+        <label for="phone"> Telefonnummer </label>
+        <input type="tel" id="phone" name="phone" />
+
+        <label for="_seminar"> Ich interessiere mich für... </label>
+        <select name="_seminar" id="_seminar">
+            <option value="" disabled selected hidden> Option auswählen </option>
+            {% for produkt in page.bestellen %}
+            <option> {{ produkt.titel }} </option>
+            {% endfor %}
+        </select>
+
+        <label for="message"> Nachricht </label>
+        <textarea name="message" id="message"></textarea>
+   
+        <button type="submit" class="button-3"> Jetzt Bestellen </button>
+    </form>
+</section>      
