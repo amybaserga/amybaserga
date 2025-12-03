@@ -399,7 +399,7 @@ h1 {
   font-family: 'Kona', sans-serif;
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   margin-bottom: 1.2rem;
 }
@@ -927,7 +927,25 @@ footer nav a {
   display: block
 }
 
+.blog-image {
+  border: 1px solid var(--dark);
+  border-radius: 50rem 50rem 5rem 5rem;
+  background-color: var(--v-light);
+  padding: 0.5rem;
+}
 
+.blog-image img {
+  border: 1px solid var(--dark);
+  border-radius: 50rem 50rem 5rem 5rem;
+}
+
+.blog-title {
+  text-decoration: none !important;
+}
+
+.no-deco {
+  text-decoration: none;
+}
 /* ------------ Contact Forms  ----------------------- */
 
 /* ------------ Form Styles  ----------------------- */
