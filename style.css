@@ -123,6 +123,8 @@ html {
 .margin-l-2 { margin-left: 2rem; }
 .margin-r-2 { margin-right: 2rem; }
 
+.margin-t-3 { margin-top: 3rem;}
+
 .margin-t-0 { margin-top: 0; }
 .margin-b-0 { margin-bottom: 0; }
 .margin-l-0 { margin-left: 0; }
@@ -201,6 +203,22 @@ html {
   border-radius: 1.5rem;
 }
 .polaroid-3 img {
+  border-radius: 1.5rem;
+  border: 1px solid var(--dark);
+}
+
+.polaroid-4 {
+  background-color: var(--v-light);
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  border: 1px solid var(--dark);
+  border-radius: 1.5rem;
+}
+
+.polaroid-4 p {
+  padding-top: 1rem;
+}
+.polaroid-4 img {
   border-radius: 1.5rem;
   border: 1px solid var(--dark);
 }
