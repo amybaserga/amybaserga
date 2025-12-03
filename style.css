@@ -384,6 +384,10 @@ a.bg-image { display: block;}
   border-radius: 10px;
 }
 
+.flex-flip-normal {
+  flex-flow:row-reverse wrap;
+}
+
 .left    { text-align: left; }
 .right   { text-align: right; }
 .center  { text-align: center; }
