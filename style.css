@@ -157,9 +157,14 @@ html {
   min-width: calc(100% + 300px) !important;
 }
 
+.sponsor-card-out {
+  border: 2px solid var(--dark-text);
+  border-radius: 1.5rem;
+}
+
 .sponsor-card {
   background-color: var(--v-light);
-  border: 1px solid var(--dark-text);
+  border: 2px solid var(--dark-text);
   padding: 1rem;
   border-radius: 1.5rem;
 }
