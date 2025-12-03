@@ -157,6 +157,13 @@ html {
   min-width: calc(100% + 300px) !important;
 }
 
+.sponsor-card {
+  background-color: var(--v-light);
+  border: 1px solid var(--dark-text);
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+
 /* ------------ Backgrounds & Background Images  ----------------------- */
 .img-style-1 {
   border-radius: 1rem;
@@ -167,6 +174,19 @@ html {
   background-color: var(--v-light);
   border-radius: 1rem;
   padding: 0.5rem;
+  border: 1px solid var(--dark-text);
+}
+
+
+.image-polaroid {
+  background-color: var(--v-light);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: 1px solid var(--dark-text);
+}
+
+.image-polaroid img {
+  border-radius: 1rem;
   border: 1px solid var(--dark-text);
 }
 
