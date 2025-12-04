@@ -1,0 +1,14 @@
+{
+  "ssg": "jekyll",
+  "mode": "hosted",
+  "build": {
+    "hugoVersion": "0.128.1",
+    "rubyVersion": "2.7.3",
+    "nodeVersion": "18",
+    "denoVersion": "1.40.2",
+    "install_command": "bundle install",
+    "build_command": "bundle exec jekyll build",
+    "output_path": "_site",
+    "preserved_paths": ".bundle_cache/"
+  }
+}
