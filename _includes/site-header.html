@@ -1,7 +1,7 @@
 
 <section class="capped-width">
   <header class="grid-middle" style="padding: 5%; padding-bottom: 1rem; padding-top: 1rem;">
-    <div class="col-3">
+    <div class="col-3_xs-6">
       <div>
         <a href="/" class="logo"> <img data-src="/icons/svg/amy-baserga-hauptlogo-portrait-mittelbraun.svg" class="header-logo lazy"> </a>
       </div>
@@ -20,7 +20,7 @@
       <a href="/blog.html"> Blog </a>
       <a href="/kontakt.html"> Kontakt </a>
     </nav> 
-    <div class="col-7 right show-md">
+    <div class="col-6 right show-md">
       <div class="burger-button">
         <span class="burger-top"></span>
         <span class="burger-middle"></span>
@@ -33,22 +33,26 @@
   
 <div class="mobile-menu"> 
   <div class="mobile-logo">
-    <img data-src="/images/logos/r-logo.png" class="lazy">
+    <img data-src="/icons/svg/amy-baserga-hauptlogo-portrait-mittelbraun.svg" class="lazy">
   </div>
   <nav> 
       <a href="/"> Start </a>
       <a href="/ueber-mich"> Über mich </a>
-      <div class="dropdown">
-        <a href="#" class="dropdown-title"> Biathlon </a>
-          <div class="dropdown-content">
-            <a href="/biathlon/karriere.html"> Karriere </a>
-            <a href="/biathlon/sponsoren.html"> Sponsoren </a>
-          </div>
-      </div>
+      <a href="#"> Biathlon </a>
+        <div class="dropdown-content-mobile">
+          <a href="/biathlon/karriere.html"> Karriere </a>
+          <a href="/biathlon/sponsoren.html"> Sponsoren </a>
+        </div>
       <a href="/shop.html"> Shop </a>
       <a href="/blog.html"> Blog </a>
       <a href="/kontakt.html"> Kontakt </a>
   </nav>
+  <div class="left margin-t-1">
+    <a href="{{ site.data.site-settings.social.instagram_url }}" target="_blank">
+      <i class="fa-brands fa-instagram instagram-mobile-menu"></i>
+    </a>
+    <a href="mailto:info@amybaserga.ch" class="mobile-menu-mail"> info@amybaserga.ch </a>
+  </div>
 </div> 
 
 

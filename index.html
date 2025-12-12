@@ -52,7 +52,7 @@ shop:
         <div class="col-6 padded-1">
           <div class="bg-img-index-1 relative">
             <img data-src="/images/amy-baserga-index-1.jpg" class="img-style-1 lazy" alt="Amy Baserga Portrait auf der Startseite">
-            <h1 class="padded-1"> Amy Baserga </h1>
+            <h1 class="padded-1" style="margin: 0;"> Amy Baserga </h1>
             <div class="index-badge-1">
               <img data-src="/icons/SVG/amy-baserga-sticker-pink.svg" class="lazy" alt="Amy Baserga Sticker Icon">
             </div>
@@ -66,14 +66,14 @@ shop:
         </div>
       </div>
 
-      <div class="col-12 padded text-white bg-paper-1 relative flex-center">
-        <div class="editable">
+      <div class="col-12  text-white xs-padded  flex-center relative">
+        <div class="editable padded bg-paper-1">
           <h2> Über mich</h2>
           <p> Ich bin Amy Baserga, 25 Jahre alt und komme aus Einsiedeln. Ich bin Biathletin im Schweizer Nationalteam und Olympionikin – mit viel Leidenschaft lebe ich meinen Traum als Spitzensportlerin. </p>
           <a href="/ueber-mich.html" class="button-inverted"> mehr erfahren </a>
         </div>
         <div class="schneeflocke-absolute-1">
-          <img data-src="/icons/SVG/amy-baserga-schneeflocke-weiss.svg" class="lazy" alt="Schneeflocke Icon">
+          <img data-src="/icons/SVG/amy-baserga-ski-mittelbraun.svg" class="lazy" alt="Schneeflocke Icon">
         </div>
       </div>
 
@@ -95,7 +95,7 @@ shop:
           <br>
           <a href="/biathlon.html" class="button"> mehr erfahren </a>
         </div>
-        <img data-src="/icons/SVG/amy-baserga-ski-braun.svg" class="schneeflocke-absolute-2 lazy" alt="Ski Icon">
+        <img data-src="/icons/SVG/amy-baserga-van-landschaft-mittelbraun.svg" class="schneeflocke-absolute-2 lazy" alt="Ski Icon">
       </div>
     </div>
 </section>
@@ -141,7 +141,7 @@ shop:
 <section>
   <div class="capped-width">
     <div class="editable padded padded-b-1 editable">
-        <a href="/sponsoren.html" class="button"> mehr erfahren </a>
+        <a href="/biathlon/sponsoren.html" class="button"> mehr erfahren </a>
     </div>
   </div>
 </section>
@@ -172,7 +172,7 @@ shop:
       <h2> Shop </h2>
     </div>
     {% for shop in page.shop %}
-    <div class="col-4 padded-1">
+    <div class="col-4_sm-6_xs-12 padded-1">
       <div class="shop">
         <img data-src="{{shop.image}}" class="lazy" alt="Shop Produkt: {{shop.title}}">
         <h3 class="margin-t-1 shop-title"> {{shop.title}} </h3>
@@ -196,7 +196,7 @@ shop:
           <p>Erfahre mehr über mein Leben als Biathletin mit ein paar persönlichen Eindrücke in meine Freizeit.  </p>
           <a href="/blog.html" class="button"> mehr erfahren </a>
         </div>
-        <img data-src="/icons/SVG/amy-baserga-schneeflocke-weiss.svg" class="schneeflocke-absolute-3 lazy" alt="Schneeflocke Icon">
+        <img data-src="/icons/SVG/amy-baserga-ski-und-schneeflocke-weiss.svg" class="schneeflocke-absolute-3 lazy" alt="Schneeflocke Icon">
       </div>
 
     </div>
