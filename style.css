@@ -547,7 +547,7 @@ p a {
     border-radius: 7px;
     color: var(--v-light);
     box-shadow: 5px 5px 5px 0 var(--v-light);
-    font-size: 2rem;
+    font-size: 1rem;      
 }
 
 .button:hover {
