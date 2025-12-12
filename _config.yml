@@ -5,7 +5,13 @@ collections:
   archives:
     output: true
   projekte:
-    output: true          # IMPORTANT: no collection-level permalink here
+    output: true    
+  biathlon:
+    output: true
+    _editor:
+      preview: true     
+    
+
 
 # Default site language (fallback for normal pages)
 lang: de
