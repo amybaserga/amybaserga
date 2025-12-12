@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Karriere
+title: Karriere | Amy Baserga
 swiper: true
 seo:
-  title: 
-  description:
+  title: Karriere | Amy Baserga
+  description: "Karriere und Erfolge von Amy Baserga: Highlights aus Junioren-WM, Europameisterschaft, Weltcup und Olympia sowie der Weg ins Schweizer Nationalteam."
   social_image:
   twitter_card:
-  keywords:
+  keywords: Amy Baserga, Karriere, Erfolge, Biathlon, Weltcup, Ruhpolding 2025, Junioren-Weltmeisterin, Europameisterschaft, Olympia, Schweizer Nationalteam, IBU Datacenter
   hide-from-google: false
 swiper_index:
   - image: /images/swiper-karriere/amy-baserga-swiper-karriere-1.jpg
@@ -22,20 +22,21 @@ swiper_index:
 ---
 
 
+
 <section>
     <div class="capped-width padded-t-0 padded-b-0">
          <div class="grid-spaceAround-middle">
             <div class="col-6 padded">
                  <div class="bg-img-index-1 relative">
-                    <img src="/images/amy-baserga-karriere.jpeg" class="img-style-1">
+                    <img data-src="/images/amy-baserga-karriere.jpeg" class="img-style-1 lazy" alt="Amy Baserga – Karriere Headerbild">
                     <h2 class="padded-1"> Sport und Vanlife </h2>
                  </div>
             </div>
             <div class="col-6 padded relative">
                 <h1> Karriere </h1>
-                <p> Als Biathletin durfte ich bereits viele Erfolge feiern und unvergessliche Momente erleben. Ein Meilenstein meiner Karriere war das Jahr 2021: Ich gewann die Gesamtwertung und wurde dreifache Junioren-Weltmeisterin. Schritt für Schritt arbeitete ich mich nach vorne – und 2025 durfte ich meinen ersten Weltcup-Podestplatz feiern. Jeder Erfolg ist Motivation, weiterzugehen. </p>
+                <p> Als Biathletin durfte ich bereits viele Erfolge feiern und unvergessliche Momente erleben. Ein Meilenstein meiner Karriere war das Jahr 2021: Ich gewann die Gesamtwertung und wurde dreifache Junioren-Weltmeisterin. Schritt für Schritt arbeitte ich mich nach vorne – und 2025 durfte ich meinen ersten Weltcup-Podestplatz feiern. Jeder Erfolg ist Motivation, weiterzugehen. </p>
                 <div class="index-badge-2">
-                    <img src="/icons/SVG/amy-baserga-sticker-pink.svg">
+                    <img data-src="/icons/SVG/amy-baserga-sticker-pink.svg" class="lazy" alt="Amy Baserga Sticker Icon">
                 </div>
             </div>
         </div>
@@ -114,7 +115,7 @@ swiper_index:
                     <li>Olympisches Diplom Mixed-Staffel 2022</li>
                 </ul>
                 <div class="schneeflocke-absolute-4">
-                    <img src="/icons/SVG/amy-baserga-ski-und-schneeflocke-weiss.svg">
+                    <img data-src="/icons/SVG/amy-baserga-ski-und-schneeflocke-weiss.svg" class="lazy" alt="Ski und Schneeflocke Icon">
                 </div>
             </div>
         </div>
@@ -129,7 +130,7 @@ swiper_index:
                 <h2> Statistiken & Platzierungen </h2>
                 <p> Alle aktuellen Platzierungen, Ergebnisse und Statistiken findest du im offiziellen IBU Datacenter: <a href="https://www.biathlonworld.com/athlete/baserga-amy/BTSUI22909200001" target="_blank"> Athlet*innen-Profil für Amy BASERGA (IBU) </a>  </p>
                 <div class="schneeflocke-absolute-4">
-                    <img src="/icons/SVG/amy-baserga-ski-und-schneeflocke-weiss.svg">
+                    <img data-src="/icons/SVG/amy-baserga-ski-und-schneeflocke-weiss.svg" class="lazy" alt="Ski und Schneeflocke Icon">
                 </div>
             </div>
         </div>
@@ -141,25 +142,25 @@ swiper_index:
     <div class="grid-spaceAround-middle margin-l-c1 capped-width">
         <div class="col-3 padded-1">
             <div class="polaroid-3">
-                <img src="/images/amy-baserga-karriere-klein-1.jpg">
+                <img data-src="/images/amy-baserga-karriere-klein-1.jpg" class="lazy" alt="Amy Baserga – Karriere Foto 1">
             </div>
         </div>        
         <div class="col-3 padded-1">
             <div class="polaroid-3">
-                <img src="/images/amy-baserga-karriere-klein-2.jpg">
+                <img data-src="/images/amy-baserga-karriere-klein-2.jpg" class="lazy" alt="Amy Baserga – Karriere Foto 2">
             </div>
         </div>
         <div class="col-3 padded-1">
             <div class="polaroid-3">
-                <img src="/images/amy-baserga-karriere-klein-3.jpg">
+                <img data-src="/images/amy-baserga-karriere-klein-3.jpg" class="lazy" alt="Amy Baserga – Karriere Foto 3">
             </div>
         </div>
         <div class="col-3 padded-1 relative">
             <div class="icon-karriere">
-                <img src="/icons/SVG/amy-baserga-word-mark-mittelbraun.svg">
+                <img data-src="/icons/SVG/amy-baserga-word-mark-mittelbraun.svg" class="lazy" alt="Amy Baserga Wordmark Logo">
             </div>
             <div class="polaroid-3">
-                <img src="/images/amy-baserga-karriere-klein-4.jpg">
+                <img data-src="/images/amy-baserga-karriere-klein-4.jpg" class="lazy" alt="Amy Baserga – Karriere Foto 4">
             </div>
         </div>
     </div>
@@ -178,26 +179,14 @@ swiper_index:
 
 
 <section class="padded  capped-width">
-  <!-- Slider main container -->
   <div class="swiper-index">
-    <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
-      <!-- Slides -->
       {% for swiper in page.swiper_index %}
         <div class="swiper-slide">
           <div class="bg-image landscape" style="background-image: url('{{ swiper.image }}');"></div>
         </div>
       {% endfor %}
     </div>
-    <!-- If we need pagination -->
-    <!-- <div class="swiper-pagination"></div> -->
-  
-    <!-- If we need navigation buttons -->
-    <!-- <div class="swiper-button-prev hide-md"> </div>
-    <div class="swiper-button-next hide-md"> </div> -->
-  
-    <!-- If we need scrollbar -->
-    <!-- <div class="swiper-scrollbar"></div> -->
   </div>
   <div class="try-to-slide">
     <p> -> du kannst hier swipen </p>
@@ -216,7 +205,7 @@ swiper_index:
           <p>Erfahre mehr über mein Leben als Biathletin mit ein paar persönlichen Eindrücke in meine Freizeit.  </p>
           <a href="/blog.html" class="button"> mehr erfahren </a>
         </div>
-        <img src="/icons/SVG/amy-baserga-schneeflocke-weiss.svg" class="schneeflocke-absolute-3">
+        <img data-src="/icons/SVG/amy-baserga-schneeflocke-weiss.svg" class="schneeflocke-absolute-3 lazy" alt="Schneeflocke Icon">
       </div>
 
     </div>
