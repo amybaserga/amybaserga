@@ -8,8 +8,7 @@ collections:
     output: true    
   biathlon:
     output: true
-    _editor:
-      preview: true     
+    permalink: /biathlon/:name/ 
     
 
 
