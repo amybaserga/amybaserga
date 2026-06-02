@@ -262,8 +262,8 @@ html {
 
 .swiper-slide {
   padding: 1rem;
-  background-color: var(--v-light);
-  border: 1px solid var(--dark-text);
+  /* background-color: var(--v-light);
+  border: 1px solid var(--dark-text); */
   border-radius: 1.5rem;
 }
 
@@ -360,6 +360,11 @@ html {
   background-color: rgba(0,0,0,0.5);
 }
 
+.shop-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
 
 .bg-overlay > * {
   z-index: 2;
@@ -376,6 +381,25 @@ html {
   opacity: 0.5;
 } 
 
+.autogrammkarten {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: right;
+ margin-top: 1rem;
+}
+.autogrammkarten p {
+  font-size: 0.9rem;
+  font-family: 700;
+  margin-bottom: 0;
+}
+
+.adress {
+  font-weight: 700;
+}
+
+.italic-emph {
+  font-style: italic;
+}
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 
 a.bg-image { display: block;}
@@ -693,8 +717,8 @@ header {
 }
 
 header a {
-  font-family: 'Script', sans-serif;
-  font-size: 2.2rem;
+  font-family: 'Kona', sans-serif;
+  font-size: 1.2rem;
 }
 
 header nav a {
@@ -736,8 +760,8 @@ footer nav a {
   text-decoration: none;
   padding: 0.2rem 0 0.2rem 0.2rem;
   font-weight: 400;
-  font-family: 'Script', sans-serif;
-  font-size: 2.8rem;
+  font-family: 'Kona', sans-serif;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -799,7 +823,7 @@ footer nav a {
   position:fixed;
   top: 1.2rem;
   right: 1rem;
-  z-index: 9;
+  z-index: 99;
   padding: 8px;
   margin-top: 0.8rem;
   line-height: 1.7;
@@ -954,10 +978,10 @@ footer nav a {
 }
 
 .mobile-menu a {
-  font-family: 'Script', sans-serif;
+  font-family: 'Kona', sans-serif;
   display: block;
   padding: 0.5rem 1rem;
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   color: var(--dark-text);
   text-decoration: none;
 
@@ -995,7 +1019,7 @@ footer nav a {
 }
 
 .dropdown-content-mobile a {
-  font-size: 1.8rem !important;
+  font-size: 0.9rem !important;
 }
 /* ------------ Contact Forms  ----------------------- */
 
