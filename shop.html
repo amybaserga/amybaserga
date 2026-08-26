@@ -4,30 +4,33 @@ title: Shop & Bestellung | Amy Baserga
 swiper: true
 seo:
   title: Shop & Bestellung | Amy Baserga
-  description: Entdecke den offiziellen Shop von Amy Baserga. Hier findest du Merchandise wie T-Shirts, Mützen und Notizbücher und kannst deine Bestellung direkt über das Formular aufgeben.
+  description: >-
+    Entdecke den offiziellen Shop von Amy Baserga. Hier findest du Merchandise
+    wie T-Shirts, Mützen und Notizbücher und kannst deine Bestellung direkt über
+    das Formular aufgeben.
   social_image:
   twitter_card:
-  keywords: Amy Baserga Shop, Amy Baserga Merchandise, Biathlon Merchandise, T-Shirt, Mütze, Notizbuch, Bestellung, Fanartikel
+  keywords: >-
+    Amy Baserga Shop, Amy Baserga Merchandise, Biathlon Merchandise, T-Shirt,
+    Mütze, Notizbuch, Bestellung, Fanartikel
   hide-from-google: false
 shop:
   - image: /images/shop/amy-baserga-muetze.jpg
     title: Mütze
-    price: 
+    price:
 bestellen:
   - titel: Mütze
 ---
-
-
 <section>
   <div class="capped-width grid-spaceAround padded-c1">
     <div class="col-12 padded-1 editable">
-      <h2> Shop </h2>
-      <p> Hier kommt ein Text als Einleitung zum Shop.. :)</p>
+        <h2> Shop </h2>
+        <p> Werde Teil von meiner Fan-Community!</p>
     </div>
     {% for shop in page.shop %}
     <div class="col-4_sm-6_xs-12 padded-1">
       <div class="shop">
-        <img src="{{shop.image}}">
+        <img src="{{shop.image}}" />
         <h3 class="margin-t-1 shop-title"> {{shop.title}} </h3>
         <p class="price"> {{shop.price}}</p>
       </div>
